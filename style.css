@@ -157,7 +157,7 @@ img
 
 #portfolio-3
 {
-	background-image: url('image/photo66.jpg');
+	background-image: url(image/photo66.jpg);
 	background-position: center top;
 }
 
@@ -283,5 +283,10 @@ img
 	top: 0px;
 	width: 114px;
 	height: 114px;
+<<<<<<< HEAD
 	background-image: url(image/tutorial-banner.png);
 }
+=======
+	background-image: url(../image/tutorial-banner.png);
+}
+>>>>>>> bd6cd1c01b0dcf7169014a2b67135d23d6d404e3
