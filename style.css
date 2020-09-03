@@ -11,7 +11,7 @@ a
 	margin-right: 20px;
 	margin-bottom: 20px;
 	float: left;
-	background-image: url(../image/sonamm.jpg);
+	background-image: url('image/sonamm.jpg');
 	border: 2px solid black;
 	border-radius: 50%;
 }
@@ -115,35 +115,23 @@ header
 	float: right;
 }
 
-.icon-dribbble
-{
-	background-image: url(../image/icon-dribbble.png);
-}
 
 .icon-email
 {
-	background-image: url(../image/icon-email.png);
+	background-image: url('image/icon-email.png');
 }
 
 .icon-facebook
 {
-	background-image: url(../image/icon-facebook.png);
-}
-
-.icon-instagram
-{
-	background-image: url(../image/icon-instagram.png);
+	background-image: url('image/icon-facebook.png');
 }
 
 .icon-linkedin
 {
-	background-image: url(../image/icon-linkedin.png);
+	background-image: url('image/icon-linkedin.png');
 }
 
-.icon-twitter
-{
-	background-image: url(../image/icon-twitter.png);
-}
+
 
 img
 { 
@@ -159,10 +147,7 @@ img
 
 #portfolio-1
 {
-	background-image: url(../image/ground.png);
-	background-repeat: repeat-x;
-	background-position: center bottom;
-	background-color: #8aced9;
+   background-color: #8aced9;
 }
 
 #portfolio-2
@@ -172,7 +157,7 @@ img
 
 #portfolio-3
 {
-	background-image: url(../image/photo66.jpeg);
+	background-image: url('image/photo66.jpg');
 	background-position: center top;
 }
 
@@ -187,17 +172,14 @@ img
 
 #portfolio-container-1
 {
-	background-image: url(../bdayPics/pic04.jpg);
+	background-image: url('bdayPics/pic04.jpg');
 }
 
-#portfolio-container-2
-{
-	background-image: url(../image/illustration-portfolio.png);
-}
+
 
 #portfolio-container-3
 {
-	background-image: url(../image/photo000.jpg);
+	background-image: url('bdayPics/photo000.jpg');
 }
 
 .portfolio-text-body
@@ -265,7 +247,7 @@ img
 .text
 {
 	position: relative;
-	font-family: Arial;
+	font-family: miso-bold;
 	font-size: 14px;
 	color: #cccccc;
 	line-height: 20px;
