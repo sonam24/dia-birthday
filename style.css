@@ -11,7 +11,7 @@ a
 	margin-right: 20px;
 	margin-bottom: 20px;
 	float: left;
-	background-image: url('https://sonam24.github.io/dia-birthday/image/sonamm.jpg');
+	background-image: url(image/sonamm.jpg);
 	border: 2px solid black;
 	border-radius: 50%;
 }
@@ -35,11 +35,11 @@ body
 @font-face
 {
 	font-family: 'miso-bold';
-    src: url('../font/miso-bold.eot');
-    src: url('../font/miso-bold.eot?#iefix') format('embedded-opentype'),
-         url('../font/miso-bold.woff') format('woff'),
-         url('../font/miso-bold.ttf') format('truetype'),
-         url('../font/miso-bold.svg#miso-bold') format('svg');
+    src: url(../font/miso-bold.eot);
+    src: url(../font/miso-bold.eot?#iefix) format('embedded-opentype'),
+         url(../font/miso-bold.woff) format('woff'),
+         url(../font/miso-bold.ttf) format('truetype'),
+         url(../font/miso-bold.svg#miso-bold) format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -118,17 +118,17 @@ header
 
 .icon-email
 {
-	background-image: url('image/icon-email.png');
+	background-image: url(image/icon-email.png);
 }
 
 .icon-facebook
 {
-	background-image: url('image/icon-facebook.png');
+	background-image: url(image/icon-facebook.png);
 }
 
 .icon-linkedin
 {
-	background-image: url('image/icon-linkedin.png');
+	background-image: url(image/icon-linkedin.png);
 }
 
 
@@ -157,7 +157,7 @@ img
 
 #portfolio-3
 {
-	background-image: url('image/photo66.jpg');
+	background-image: url(image/photo66.jpg);
 	background-position: center top;
 }
 
@@ -172,14 +172,14 @@ img
 
 #portfolio-container-1
 {
-	background-image: url('bdayPics/pic04.jpg');
+	background-image: url(bdayPics/pic04.jpg);
 }
 
 
 
 #portfolio-container-3
 {
-	background-image: url('bdayPics/photo000.jpg');
+	background-image: url(bdayPics/photo000.jpg);
 }
 
 .portfolio-text-body
