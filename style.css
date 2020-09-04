@@ -11,7 +11,6 @@ a
 	margin-right: 20px;
 	margin-bottom: 20px;
 	float: left;
-	background-image: url(image/sonamm.jpg);
 	border: 2px solid black;
 	border-radius: 50%;
 }
@@ -21,25 +20,15 @@ body
 	margin: 0px;
 }
 
-#design-portfolio-cloud
-{
-	position: absolute;
-	left: 0px;
-	bottom: 0px;
-	width: 100%;
-	height: 228px;
-	background-image: url(image/design-portfolio-cloud.png);
-	background-position: center;
-}
 
 @font-face
 {
 	font-family: 'miso-bold';
-    src: url('font/miso-bold.eot');
-    src: url('font/miso-bold.eot?#iefix') format('embedded-opentype'),
-         url('font/miso-bold.woff') format('woff'),
-         url('font/miso-bold.ttf') format('truetype'),
-         url('font/miso-bold.svg#miso-bold') format('svg');
+    src: url(miso-bold.eot);
+    src: url(miso-bold.eot?#iefix) format('embedded-opentype'),
+         url(miso-bold.woff) format('woff'),
+         url(miso-bold.ttf) format('truetype'),
+         url(miso-bold.svg#miso-bold) format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -94,6 +83,11 @@ header
 	background-color: #505050;
 }
 
+.heropic{
+	float: right;
+	clear:both;
+}
+
 .icon
 {
 	position: relative;
@@ -118,17 +112,17 @@ header
 
 .icon-email
 {
-	background-image: url(image/icon-email.png);
+	background-image: url(icon-email.png);
 }
 
 .icon-facebook
 {
-	background-image: url(image/icon-facebook.png);
+	background-image: url(icon-facebook.png);
 }
 
 .icon-linkedin
 {
-	background-image: url(image/icon-linkedin.png);
+	background-image: url(icon-linkedin.png);
 }
 
 
@@ -157,7 +151,7 @@ img
 
 #portfolio-3
 {
-	background-image: url(image/photo66.jpg);
+	background-image: url(photo66.jpg);
 	background-position: center top;
 }
 
@@ -172,14 +166,14 @@ img
 
 #portfolio-container-1
 {
-	background-image: url(bdayPics/pic04.jpg);
+	background-image:url(background.jpg);
 }
 
 
 
 #portfolio-container-3
 {
-	background-image: url(bdayPics/photo000.jpg);
+	background-image: url(background2.jpg);
 }
 
 .portfolio-text-body
@@ -198,7 +192,7 @@ img
 	width: 11px;
 	height: 16px;
 	margin-right: 8px;
-	background-image: url(image/button-arrow.png);
+	background-image: url(../image/button-arrow.png);
 }
 
 .portfolio-text-button
@@ -248,7 +242,7 @@ img
 {
 	position: relative;
 	font-family: miso-bold;
-	font-size: 14px;
+	font-size: 17px;
 	color: #cccccc;
 	line-height: 20px;
 	margin-bottom: 18px;
@@ -283,10 +277,5 @@ img
 	top: 0px;
 	width: 114px;
 	height: 114px;
-<<<<<<< HEAD
-	background-image: url(image/tutorial-banner.png);
-}
-=======
 	background-image: url(../image/tutorial-banner.png);
 }
->>>>>>> bd6cd1c01b0dcf7169014a2b67135d23d6d404e3
